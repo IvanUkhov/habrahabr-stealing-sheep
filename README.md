@@ -9,3 +9,6 @@ h1 {
   letter-spacing: normal !important;
 }
 ```
+
+The extension can be installed from
+[Chrome Web Store](https://chrome.google.com/webstore/detail/habrahabr-stealing-sheep/lmopgfignagihcbeagefaencbkaclded).
