@@ -1,8 +1,11 @@
 # Habrahabr Stealing Sheep
 
-A Chrome extension to
-[stop stealing sheep](https://en.wikipedia.org/wiki/Frederic_Goudy) at
-[Habrahabr](http://habrahabr.ru/). All it does is
+A Chrome extension to prevent [Habrahabr](http://habrahabr.ru/) from
+[stealing sheep](https://en.wikipedia.org/wiki/Frederic_Goudy).
+
+![](/promo.png?raw=true)
+
+All it does is
 
 ```css
 h1 {
