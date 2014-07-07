@@ -4,7 +4,7 @@
   "name": "Stop Stealing Sheep",
   "description": "The extension sets letter spacing back to normal.",
   "author": "Ivan Ukhov",
-  "version": "0.0.0.2",
+  "version": "0.0.0.3",
 
   "icons": {
     "128": "images/logo128.png"

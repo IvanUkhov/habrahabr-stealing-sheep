@@ -11,12 +11,10 @@ for record in records
 
 chrome.tabs.onUpdated.addListener (tabId, changedInfo, tab) ->
 
-  return unless changedInfo.status is 'complete'
+  return unless changedInfo.status is 'loading'
 
   for rule in rules
     continue unless rule.matcher.exec(tab.url)
     chrome.tabs.insertCSS(tabId, code: rule.content)
     chrome.pageAction.show(tabId)
     return
-
-  chrome.pageAction.hide(tabId)
