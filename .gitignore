@@ -1,1 +1,11 @@
 *.swp
+.DS_Store
+
+Gemfile.lock
+
+*.ai
+*.psd
+
+public/*.js
+public/*.css
+public/*.html

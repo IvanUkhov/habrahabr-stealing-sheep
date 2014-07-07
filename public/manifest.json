@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "Stop Stealing Sheep",
+  "description": "Prevent the Web from stealing sheep",
+  "author": "Ivan Ukhov",
+  "version": "0.0.0.2",
+
+  "icons": {
+    "128": "images/logo128.png"
+  },
+
+  "background": {
+    "scripts": [ "application.js" ],
+    "persistent": false
+  },
+
+  "page_action": {
+    "default_icon": {
+      "19": "images/logo19.png",
+      "38": "images/logo38.png"
+    },
+    "default_title": "The sheep are safe on this page!"
+  },
+
+  "options_page": "index.html",
+
+  "permissions": [
+    "declarativeContent"
+  ]
+}
