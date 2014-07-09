@@ -18,5 +18,75 @@ article {
     font-size: 3rem;
     line-height: 5rem;
     text-align: center;
+    margin-bottom: 1rem;
+  }
+}
+
+ul {
+  list-style-type: none;
+
+  li {
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+  }
+
+  input {
+    -webkit-appearance: none;
+    background-color: #fafafa;
+    border: 1px solid #cecece;
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+}
+
+ul#snippets {
+  label {
+    display: block;
+    margin-left: 2.5rem;
+  }
+
+  input {
+    float: left;
+    margin-left: -2.5rem;
+    margin-top: -1px;
+
+    &:after {
+      content: '\2714';
+
+      width: 1.5rem;
+      display: inline-block;
+      visibility: hidden;
+
+      font-size: 1rem;
+      line-height: 1.5rem;
+      text-align: center;
+    }
+
+    &:checked:after {
+      visibility: visible;
+    }
+  }
+}
+
+ul#actions {
+  margin-top: 2rem;
+  text-align: center;
+
+  input {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 0 1rem;
+  }
+}
+
+.busy {
+  input {
+    color: #999;
+    cursor: wait;
   }
 }

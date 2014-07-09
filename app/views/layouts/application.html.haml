@@ -5,6 +5,16 @@
     %title Stop Stealing Sheep
     %link{ href: "/application.css?#{ stamp }", media: 'all', rel: 'stylesheet' }
   %body
-    %article
+    %article#application
       %header
         %h1 Stop Stealing Sheep
+
+      %section
+        %ul#snippets
+
+        %ul#actions
+          %li
+            %input#update{ type: 'submit', value: 'Check for updates' }
+
+    %script{ src: '/jquery-2.1.1.min.js' }
+    %script{ src: "/application.js?#{ stamp }" }

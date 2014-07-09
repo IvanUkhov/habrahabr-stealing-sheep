@@ -5,7 +5,9 @@ Gemfile.lock
 
 *.ai
 *.psd
+*.zip
 
-public/*.js
-public/*.css
-public/*.html
+public/application.js
+public/application.css
+public/background.js
+public/index.html
