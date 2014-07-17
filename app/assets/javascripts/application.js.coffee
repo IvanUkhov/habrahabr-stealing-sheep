@@ -1,9 +1,12 @@
+#= require configuration
+
 class Application
   constructor: ->
     @application = $('#application')
     @snippets = $('#snippets')
 
-    @configuration = chrome.extension.getBackgroundPage().configuration
+    background = chrome.extension.getBackgroundPage()
+    @configuration = background.configuration || new Configuration()
 
     @setBusy(true)
     @configuration.load =>
