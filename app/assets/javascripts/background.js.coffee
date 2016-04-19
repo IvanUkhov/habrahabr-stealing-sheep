@@ -12,5 +12,3 @@ configuration.load ->
         chrome.tabs.insertCSS(tabId, code: record.styles)
       else
         chrome.pageAction.hide(tabId)
-
-      return

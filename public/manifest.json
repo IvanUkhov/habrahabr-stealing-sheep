@@ -4,7 +4,7 @@
   "name": "Stop Stealing Sheep",
   "description": "The extension makes the Web a better place.",
   "author": "Ivan Ukhov",
-  "version": "0.0.0.4",
+  "version": "0.0.0.5",
 
   "icons": {
     "128": "images/logo128.png"
